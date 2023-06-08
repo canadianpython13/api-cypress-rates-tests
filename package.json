@@ -1,0 +1,20 @@
+{
+  "name": "boc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "html-report": "cypress run --spec cypress/e2e/boc.cy.js --browser chrome --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.13.0",
+    "cypress-plugin-api": "^2.11.1"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.5.0"
+  }
+}
