@@ -5,13 +5,30 @@ A test project for Kablamo that tests an API which returns exchange rates accord
 
 ## Installation
 
-This project will require installation of Cypress in a project folder of your choice. As a pre-requisite, you will need node.js and npm. The versions for this project are below:
+This project will require installation of Cypress in a project folder of your choice. As a pre-requisite, you will need node.js and npm. 
+While in your selected project folder, you will need to first create your package.json by running 
+```bash
+npm init -y
+```
+
+
+The versions for this project are below:
 
 ```bash
   npm versions 9.x.x
   node.js 18.x and above
 ```
 You may follow the installation instructions at: https://docs.cypress.io/guides/getting-started/installing-cypress
+
+OR 
+you may proceed by running directly this:
+```bash
+npm install cypress
+```
+To verify all has been installed properly, run 
+```bash
+npx cypress open
+```
 
 You will also need to install [cypress-plugin-api](https://github.com/filiphric/cypress-plugin-api): 
 
@@ -20,6 +37,8 @@ You will also need to install [cypress-plugin-api](https://github.com/filiphric/
 npm i cypress-plugin-api
 ```
 then import the plugin into the cypress/support/e2e.js file
+
+After you have completed the above steps, ensure that you clone the project into your selected project folder
     
 
 ## Running Tests
