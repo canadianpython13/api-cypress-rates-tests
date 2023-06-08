@@ -1,3 +1,5 @@
+> ❗️ DO NOT clone the repo until step below named `Clone project`
+
 # boc
 
 A test project for Kablamo that tests an API which returns exchange rates according to parameters specified in the request.
@@ -17,10 +19,11 @@ The versions for this project are below:
   npm versions 9.x.x
   node.js 18.x and above
 ```
+
 Verify the version you have using 
 ```bash 
-    node -v
-    npm -v
+node -v
+npm -v
 ```
 If you do not have them installed, you can use the installer located here https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
@@ -42,7 +45,7 @@ npm i cypress-plugin-api
 ```
 then import the plugin into the cypress/support/e2e.js file
 ```bash 
-    import 'cypress-plugin-api'
+import 'cypress-plugin-api'
 ```
 
 ### Clone project
@@ -50,14 +53,22 @@ then import the plugin into the cypress/support/e2e.js file
 After you have completed the above steps, ensure that you clone the project into your selected project folder
 
 ```bash
-    git clone https://github.com/canadianpython13/boc.git
+git clone https://github.com/canadianpython13/boc.git
 ```
+
+## Install dependencies 
+
+```
+cd boc
+npm i
+```
+
 ## Running Tests
 
 To run the test, ensure that you are in your project folder, then run:
 
 ```bash
-  npm run html-report
+npm run html-report
 ```
 This will run the test in headed mode in Chrome as configured. this can be changed in the package.json to run in headless mode, and change the default browser.
 
