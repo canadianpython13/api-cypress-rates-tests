@@ -2,7 +2,7 @@
 
 # boc
 
-A test project for Kablamo that tests an API which returns exchange rates according to parameters specified in the request.
+A test project that tests an API which returns exchange rates according to parameters specified in the request.
 
 
 ## Installation
